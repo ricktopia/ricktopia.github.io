@@ -3,7 +3,6 @@
     "compile-hero.disable-compile-files-on-did-save-code": false,
     "compile-hero.javascript-output-toggle": false,
     "compile-hero.typescript-output-toggle": false,
-
     "emmet.includeLanguages": {
         "njk": "html"
     },
