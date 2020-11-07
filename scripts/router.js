@@ -20,7 +20,3 @@ routie({
         renderView('home')
     }
 });
-
-$(document).ready( function(){
-    routie('/');
-});
