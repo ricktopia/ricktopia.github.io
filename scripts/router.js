@@ -1,8 +1,4 @@
-const routie = require("../packages/routie");
-
 nunjucks.configure('/views', { autoescape: true });
-
-
 
 function renderView(view){
     $("#app").html(nunjucks.render(view + '.njk'));

@@ -1,7 +1,5 @@
 "use strict";
 
-var routie = require("../packages/routie");
-
 nunjucks.configure('/views', {
   autoescape: true
 });
