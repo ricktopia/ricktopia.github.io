@@ -1,5 +1,7 @@
 "use strict";
 
+var routie = require("../packages/routie");
+
 nunjucks.configure('/views', {
   autoescape: true
 });
@@ -19,5 +21,11 @@ routie({
   },
   '': function _() {
     renderView('home');
+  },
+  '/': function _() {
+    renderView('home');
   }
+});
+$(document).ready(function () {
+  routie('/');
 });
