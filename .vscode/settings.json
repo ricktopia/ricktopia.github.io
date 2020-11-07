@@ -1,0 +1,19 @@
+{
+    "compile-hero.scss-output-directory": "../styles",
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "compile-hero.javascript-output-toggle": false,
+    "compile-hero.typescript-output-toggle": false,
+
+    "emmet.includeLanguages": {
+        "njk": "html"
+    },
+    "files.associations": {
+        "*.njk": "njk"
+    },
+    "vsicons.associations.files": [
+        { "icon": "nunjucks", "extensions": ["njk"], "format": "svg" }
+    ],
+    "material-icon-theme.files.associations": {
+        "*.njk": "nunjucks"
+    }
+}
