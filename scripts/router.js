@@ -18,5 +18,5 @@ routie({
     },
     '/': function(){
         renderView('home')
-    }
+    },
 });
